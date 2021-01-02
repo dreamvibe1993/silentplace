@@ -131,7 +131,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 415px) {
     .HeaderCheckFormListOpened{
         background-color: white;
         height: fit-content;

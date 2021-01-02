@@ -2,7 +2,7 @@
   "name": "peacefulhome-deployment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dreamvibe1993.github.io/peacefulhome-deployment/",
+  "homepage": "https://dreamvibe1993.github.io/silentplace/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

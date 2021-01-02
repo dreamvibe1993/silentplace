@@ -24,7 +24,7 @@ const About = () =>(
         </p>
         <p className="paragraph">— Георгий Апраксин</p>
         </div>
-        <NavLink to='/'>Назад</NavLink>
+        <NavLink to='/silentplace'>Назад</NavLink>
     </div>
 
 )
