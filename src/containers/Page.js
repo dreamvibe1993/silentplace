@@ -71,8 +71,6 @@ class Page extends Component {
         }
         if (id === 'check') {
             this.inputVisibilityHandler()
-        } else {
-            
         }
         this.setState(value)
        
@@ -161,9 +159,9 @@ class Page extends Component {
                         или квартиру,</strong> достаточно указать <strong>лишь адрес дома</strong>.
                     </p>
 
-                    <p className={classes.TipSwitcher} 
+                    <div className={classes.TipSwitcher} 
                     onClick={() => this.componentVisibilityHandler(null, 'tip')}
-                    ><h3>Подробнее об оценках</h3></p>
+                    >{this.state.tip ? <h3>Скрыть оценки</h3> : <h3>Подробнее об оценках</h3>}</div>
                     {tip}
                 </header>
 

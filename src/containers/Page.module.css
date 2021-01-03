@@ -191,20 +191,10 @@ ul {
         padding: 15px;
         line-height: 1;
         transition: all .6s;
-        z-index: 15252233;
+        overflow: hidden;  
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
-    .TipOpened::after{ 
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 395px;
-        height: 1000vh;
-        width: 100%;
-        opacity: .2;
-        background: black;
-        transition: all .6s;        
-        z-index: 15251;
-    }
+
     ul {
         text-align: justify;
         list-style: none;
@@ -281,7 +271,6 @@ ul {
     }
     .Container footer {
         margin-top: 10px;
-        word-wrap: break-word;
         box-sizing: border-box;
         padding: 0px;
         width: 100%;
@@ -290,7 +279,7 @@ ul {
     }
     .Container footer a{
         padding: 15px 2px;
-        word-wrap: break-word;
+        word-break: break-word;
         font-size: 13px;
         border-radius: 15px;
         width: 30%;
@@ -305,3 +294,4 @@ ul {
         line-height: 1.2;
     }
 }
+
